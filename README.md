@@ -3,7 +3,7 @@ sessionStorage the easy way
 
 ## How To
 Download this small script and add it to your HTML or require config.
-After this you just have four methods to add and remove data from windows.sessionStorage
+After this you just have four methods to add and remove data from window.sessionStorage
 
 ### S.set
 You can add data to the sessionStorage by calling S.set() with an object as parameter.

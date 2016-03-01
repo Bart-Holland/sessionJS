@@ -27,7 +27,7 @@
     window.S = S;
 
     /**
-     * sessionJS.setplace it int
+     * sessionJS.set
      * -------------
      * Set one or more keys in the sessionStorage
      * @param {object} obj - Object to place into the session storage

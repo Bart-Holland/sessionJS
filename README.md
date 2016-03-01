@@ -24,17 +24,17 @@ S.set(obj);
 Retrieve one, more or all data from the sessionStorage.
 S.get expects a string or array as parameter. When you do not send a parameter you will retrieve all data from the sessionStorage. S.get returns an object (key value pairs) with the data from sessionStorage.
 
-#### retrieving all data from sessionStorage
+##### retrieving all data from sessionStorage
 ``` 
 var dogInfo = S.get(); 
 ```
 
-#### retrieving one item
+##### retrieving one item
 ```
 var dogName = S.get('name'); //dogName == Blaze
 ```
 
-#### retrieving more items
+##### retrieving more items
 ```
 var dog = S.get(['name', 'gender']);
 ```
@@ -43,12 +43,12 @@ var dog = S.get(['name', 'gender']);
 Remove one or more items from the sessionStorage.
 S.clear expects a string or an array as parameter. When you do not send a parameter nothing will happen.
 
-#### Removing one item
+##### Removing one item
 ``` 
 S.clear('name');
 ```
 
-#### Removing more items
+##### Removing more items
 ```
 S.clear(['name', 'gender']);
 ```

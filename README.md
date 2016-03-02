@@ -1,5 +1,11 @@
 # sessionJS
-sessionStorage the easy way
+sessionStorage made easy
+If you ever had the pleasure of creating a sessionStorage you probably noticed a couple of things.
+For example: You might just be botherd by the lenghty name you have to type to save stuff in the sessionStoroge like: window.sessionStorage.setItem('key', 'value').
+Or you might just want to add more key value pairs in the sessionStorage at once and do not want to loop over an array or object.
+
+sessionJS might just be the solution, with short and flexible ways to enter or retrieve data from your sessionStorage.
+
 
 ## How To
 Download this small script and add it to your HTML or require config.

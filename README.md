@@ -1,5 +1,6 @@
 # sessionJS
 sessionStorage made easy
+
 If you ever had the pleasure of creating a sessionStorage you probably noticed a couple of things.
 For example: You might just be botherd by the lenghty name you have to type to save stuff in the sessionStoroge like: window.sessionStorage.setItem('key', 'value').
 Or you might just want to add more key value pairs in the sessionStorage at once and do not want to loop over an array or object.

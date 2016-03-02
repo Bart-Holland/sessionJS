@@ -8,7 +8,7 @@ Or you might just want to add more key value pairs in the sessionStorage at once
 sessionJS might just be the solution, with short and flexible ways to enter or retrieve data from your sessionStorage.
 
 
-## How To
+## How does it work?
 Download this small script and add it to your HTML or require config.
 After this you just have four methods to add and remove data from window.sessionStorage
 
